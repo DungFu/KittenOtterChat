@@ -21,6 +21,55 @@
         </customObject>
         <menu id="ysv-oc-G3V" userLabel="Status Menu">
             <items>
+                <menuItem title="Affirmative" id="010-UX-EX5">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="affirmativeClicked:" target="QuZ-7k-Gtu" id="2li-nH-Hf1"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Attention" id="tcY-9f-NOe">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="attentionClicked:" target="QuZ-7k-Gtu" id="e4u-h7-wv3"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Humph" id="JXw-Iu-tD6">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="humphClicked:" target="QuZ-7k-Gtu" id="uag-BB-ARC"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Hungry" id="0aI-uL-e2R">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="hungryClicked:" target="QuZ-7k-Gtu" id="Rxa-b4-rkw"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Reporting for Duty!" id="tbE-s9-7lg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="reportingForDutyClicked:" target="QuZ-7k-Gtu" id="eQ2-eN-Q32"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Sad" id="zRW-DT-alD">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="sadClicked:" target="QuZ-7k-Gtu" id="41s-g6-Fu7"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Talkative" id="khU-eg-ghA">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="talkativeClicked:" target="QuZ-7k-Gtu" id="IlM-dM-g4y"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="dxh-GA-8cV"/>
+                <menuItem title="Preferences" id="CrC-CC-9JH">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesClicked:" target="QuZ-7k-Gtu" id="4wY-1j-Ydw"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" id="SoV-NN-DOW" userLabel="Quit">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>

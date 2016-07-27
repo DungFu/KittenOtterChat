@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2BCB591D491BED0096A936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BCB581D491BED0096A936 /* AppDelegate.swift */; };
+		FA2BCB5B1D491BED0096A936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB5A1D491BED0096A936 /* Assets.xcassets */; };
+		FA2BCB5E1D491BED0096A936 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB5C1D491BED0096A936 /* MainMenu.xib */; };
+		FA2BCB691D491BEE0096A936 /* KittenOtterChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BCB681D491BEE0096A936 /* KittenOtterChatTests.swift */; };
+		FA2BCB741D491BEE0096A936 /* KittenOtterChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BCB731D491BEE0096A936 /* KittenOtterChatUITests.swift */; };
+		FA2BCB821D4924500096A936 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BCB811D4924500096A936 /* StatusMenuController.swift */; };
+		FA2BCB861D4929410096A936 /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */; };
+		FA2BCB871D4929410096A936 /* SocketIOClientSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2BCB651D491BEE0096A936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2BCB4D1D491BED0096A936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2BCB541D491BED0096A936;
+			remoteInfo = KittenOtterChat;
+		};
+		FA2BCB701D491BEE0096A936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2BCB4D1D491BED0096A936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2BCB541D491BED0096A936;
+			remoteInfo = KittenOtterChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA2BCB881D4929420096A936 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA2BCB871D4929410096A936 /* SocketIOClientSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA2BCB551D491BED0096A936 /* KittenOtterChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenOtterChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BCB581D491BED0096A936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2BCB5A1D491BED0096A936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2BCB5D1D491BED0096A936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA2BCB5F1D491BED0096A936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BCB641D491BEE0096A936 /* KittenOtterChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenOtterChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BCB681D491BEE0096A936 /* KittenOtterChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenOtterChatTests.swift; sourceTree = "<group>"; };
+		FA2BCB6A1D491BEE0096A936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BCB6F1D491BEE0096A936 /* KittenOtterChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenOtterChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BCB731D491BEE0096A936 /* KittenOtterChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenOtterChatUITests.swift; sourceTree = "<group>"; };
+		FA2BCB751D491BEE0096A936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BCB811D4924500096A936 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		FA2BCB831D4928660096A936 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = Carthage/Build/Mac/SocketIOClientSwift.framework; sourceTree = "<group>"; };
+		FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = Carthage/Build/Mac/SocketIOClientSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2BCB521D491BED0096A936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BCB861D4929410096A936 /* SocketIOClientSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB611D491BEE0096A936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB6C1D491BEE0096A936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2BCB4C1D491BED0096A936 = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */,
+				FA2BCB831D4928660096A936 /* SocketIOClientSwift.framework */,
+				FA2BCB571D491BED0096A936 /* KittenOtterChat */,
+				FA2BCB671D491BEE0096A936 /* KittenOtterChatTests */,
+				FA2BCB721D491BEE0096A936 /* KittenOtterChatUITests */,
+				FA2BCB561D491BED0096A936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2BCB561D491BED0096A936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB551D491BED0096A936 /* KittenOtterChat.app */,
+				FA2BCB641D491BEE0096A936 /* KittenOtterChatTests.xctest */,
+				FA2BCB6F1D491BEE0096A936 /* KittenOtterChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2BCB571D491BED0096A936 /* KittenOtterChat */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB581D491BED0096A936 /* AppDelegate.swift */,
+				FA2BCB811D4924500096A936 /* StatusMenuController.swift */,
+				FA2BCB5A1D491BED0096A936 /* Assets.xcassets */,
+				FA2BCB5C1D491BED0096A936 /* MainMenu.xib */,
+				FA2BCB5F1D491BED0096A936 /* Info.plist */,
+			);
+			path = KittenOtterChat;
+			sourceTree = "<group>";
+		};
+		FA2BCB671D491BEE0096A936 /* KittenOtterChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB681D491BEE0096A936 /* KittenOtterChatTests.swift */,
+				FA2BCB6A1D491BEE0096A936 /* Info.plist */,
+			);
+			path = KittenOtterChatTests;
+			sourceTree = "<group>";
+		};
+		FA2BCB721D491BEE0096A936 /* KittenOtterChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB731D491BEE0096A936 /* KittenOtterChatUITests.swift */,
+				FA2BCB751D491BEE0096A936 /* Info.plist */,
+			);
+			path = KittenOtterChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2BCB541D491BED0096A936 /* KittenOtterChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BCB781D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChat" */;
+			buildPhases = (
+				FA2BCB511D491BED0096A936 /* Sources */,
+				FA2BCB521D491BED0096A936 /* Frameworks */,
+				FA2BCB531D491BED0096A936 /* Resources */,
+				FA2BCB881D4929420096A936 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenOtterChat;
+			productName = KittenOtterChat;
+			productReference = FA2BCB551D491BED0096A936 /* KittenOtterChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2BCB631D491BEE0096A936 /* KittenOtterChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BCB7B1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatTests" */;
+			buildPhases = (
+				FA2BCB601D491BEE0096A936 /* Sources */,
+				FA2BCB611D491BEE0096A936 /* Frameworks */,
+				FA2BCB621D491BEE0096A936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2BCB661D491BEE0096A936 /* PBXTargetDependency */,
+			);
+			name = KittenOtterChatTests;
+			productName = KittenOtterChatTests;
+			productReference = FA2BCB641D491BEE0096A936 /* KittenOtterChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2BCB6E1D491BEE0096A936 /* KittenOtterChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BCB7E1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatUITests" */;
+			buildPhases = (
+				FA2BCB6B1D491BEE0096A936 /* Sources */,
+				FA2BCB6C1D491BEE0096A936 /* Frameworks */,
+				FA2BCB6D1D491BEE0096A936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2BCB711D491BEE0096A936 /* PBXTargetDependency */,
+			);
+			name = KittenOtterChatUITests;
+			productName = KittenOtterChatUITests;
+			productReference = FA2BCB6F1D491BEE0096A936 /* KittenOtterChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2BCB4D1D491BED0096A936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Freddie Meyer";
+				TargetAttributes = {
+					FA2BCB541D491BED0096A936 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA2BCB631D491BEE0096A936 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA2BCB541D491BED0096A936;
+					};
+					FA2BCB6E1D491BEE0096A936 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA2BCB541D491BED0096A936;
+					};
+				};
+			};
+			buildConfigurationList = FA2BCB501D491BED0096A936 /* Build configuration list for PBXProject "KittenOtterChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2BCB4C1D491BED0096A936;
+			productRefGroup = FA2BCB561D491BED0096A936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2BCB541D491BED0096A936 /* KittenOtterChat */,
+				FA2BCB631D491BEE0096A936 /* KittenOtterChatTests */,
+				FA2BCB6E1D491BEE0096A936 /* KittenOtterChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2BCB531D491BED0096A936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BCB5B1D491BED0096A936 /* Assets.xcassets in Resources */,
+				FA2BCB5E1D491BED0096A936 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB621D491BEE0096A936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB6D1D491BEE0096A936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2BCB511D491BED0096A936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BCB821D4924500096A936 /* StatusMenuController.swift in Sources */,
+				FA2BCB591D491BED0096A936 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB601D491BEE0096A936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BCB691D491BEE0096A936 /* KittenOtterChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BCB6B1D491BEE0096A936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BCB741D491BEE0096A936 /* KittenOtterChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2BCB661D491BEE0096A936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2BCB541D491BED0096A936 /* KittenOtterChat */;
+			targetProxy = FA2BCB651D491BEE0096A936 /* PBXContainerItemProxy */;
+		};
+		FA2BCB711D491BEE0096A936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2BCB541D491BED0096A936 /* KittenOtterChat */;
+			targetProxy = FA2BCB701D491BEE0096A936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2BCB5C1D491BED0096A936 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2BCB5D1D491BED0096A936 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2BCB761D491BEE0096A936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2BCB771D491BEE0096A936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA2BCB791D491BEE0096A936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = KittenOtterChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2BCB7A1D491BEE0096A936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = KittenOtterChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA2BCB7C1D491BEE0096A936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KittenOtterChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenOtterChat.app/Contents/MacOS/KittenOtterChat";
+			};
+			name = Debug;
+		};
+		FA2BCB7D1D491BEE0096A936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KittenOtterChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenOtterChat.app/Contents/MacOS/KittenOtterChat";
+			};
+			name = Release;
+		};
+		FA2BCB7F1D491BEE0096A936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KittenOtterChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KittenOtterChat;
+			};
+			name = Debug;
+		};
+		FA2BCB801D491BEE0096A936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KittenOtterChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmeyer.KittenOtterChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KittenOtterChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2BCB501D491BED0096A936 /* Build configuration list for PBXProject "KittenOtterChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BCB761D491BEE0096A936 /* Debug */,
+				FA2BCB771D491BEE0096A936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2BCB781D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BCB791D491BEE0096A936 /* Debug */,
+				FA2BCB7A1D491BEE0096A936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2BCB7B1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BCB7C1D491BEE0096A936 /* Debug */,
+				FA2BCB7D1D491BEE0096A936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2BCB7E1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BCB7F1D491BEE0096A936 /* Debug */,
+				FA2BCB801D491BEE0096A936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2BCB4D1D491BED0096A936 /* Project object */;
+}

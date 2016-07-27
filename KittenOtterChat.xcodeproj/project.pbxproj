@@ -15,6 +15,15 @@
 		FA2BCB821D4924500096A936 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BCB811D4924500096A936 /* StatusMenuController.swift */; };
 		FA2BCB861D4929410096A936 /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */; };
 		FA2BCB871D4929410096A936 /* SocketIOClientSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA2BCBA21D4970470096A936 /* otter_affirmative.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB9B1D4970470096A936 /* otter_affirmative.m4a */; };
+		FA2BCBA31D4970470096A936 /* otter_attention.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB9C1D4970470096A936 /* otter_attention.m4a */; };
+		FA2BCBA41D4970470096A936 /* otter_humph.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB9D1D4970470096A936 /* otter_humph.m4a */; };
+		FA2BCBA51D4970470096A936 /* otter_hungry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB9E1D4970470096A936 /* otter_hungry.m4a */; };
+		FA2BCBA61D4970470096A936 /* otter_reporting_for_duty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCB9F1D4970470096A936 /* otter_reporting_for_duty.m4a */; };
+		FA2BCBA71D4970470096A936 /* otter_sad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCBA01D4970470096A936 /* otter_sad.m4a */; };
+		FA2BCBA81D4970470096A936 /* otter_talkative.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2BCBA11D4970470096A936 /* otter_talkative.m4a */; };
+		FAD831471D497A2D003F8695 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD831451D497A2D003F8695 /* PreferencesWindow.swift */; };
+		FAD831481D497A2D003F8695 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD831461D497A2D003F8695 /* PreferencesWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,15 @@
 		FA2BCB811D4924500096A936 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		FA2BCB831D4928660096A936 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = Carthage/Build/Mac/SocketIOClientSwift.framework; sourceTree = "<group>"; };
 		FA2BCB851D4929410096A936 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = Carthage/Build/Mac/SocketIOClientSwift.framework; sourceTree = "<group>"; };
+		FA2BCB9B1D4970470096A936 /* otter_affirmative.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_affirmative.m4a; sourceTree = "<group>"; };
+		FA2BCB9C1D4970470096A936 /* otter_attention.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_attention.m4a; sourceTree = "<group>"; };
+		FA2BCB9D1D4970470096A936 /* otter_humph.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_humph.m4a; sourceTree = "<group>"; };
+		FA2BCB9E1D4970470096A936 /* otter_hungry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_hungry.m4a; sourceTree = "<group>"; };
+		FA2BCB9F1D4970470096A936 /* otter_reporting_for_duty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_reporting_for_duty.m4a; sourceTree = "<group>"; };
+		FA2BCBA01D4970470096A936 /* otter_sad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_sad.m4a; sourceTree = "<group>"; };
+		FA2BCBA11D4970470096A936 /* otter_talkative.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otter_talkative.m4a; sourceTree = "<group>"; };
+		FAD831451D497A2D003F8695 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesWindow.swift; path = ../PreferencesWindow.swift; sourceTree = "<group>"; };
+		FAD831461D497A2D003F8695 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesWindow.xib; path = ../PreferencesWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +134,11 @@
 		FA2BCB571D491BED0096A936 /* KittenOtterChat */ = {
 			isa = PBXGroup;
 			children = (
+				FA2BCB9A1D49702F0096A936 /* sounds */,
 				FA2BCB581D491BED0096A936 /* AppDelegate.swift */,
 				FA2BCB811D4924500096A936 /* StatusMenuController.swift */,
+				FAD831451D497A2D003F8695 /* PreferencesWindow.swift */,
+				FAD831461D497A2D003F8695 /* PreferencesWindow.xib */,
 				FA2BCB5A1D491BED0096A936 /* Assets.xcassets */,
 				FA2BCB5C1D491BED0096A936 /* MainMenu.xib */,
 				FA2BCB5F1D491BED0096A936 /* Info.plist */,
@@ -141,6 +162,20 @@
 				FA2BCB751D491BEE0096A936 /* Info.plist */,
 			);
 			path = KittenOtterChatUITests;
+			sourceTree = "<group>";
+		};
+		FA2BCB9A1D49702F0096A936 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCB9B1D4970470096A936 /* otter_affirmative.m4a */,
+				FA2BCB9C1D4970470096A936 /* otter_attention.m4a */,
+				FA2BCB9D1D4970470096A936 /* otter_humph.m4a */,
+				FA2BCB9E1D4970470096A936 /* otter_hungry.m4a */,
+				FA2BCB9F1D4970470096A936 /* otter_reporting_for_duty.m4a */,
+				FA2BCBA01D4970470096A936 /* otter_sad.m4a */,
+				FA2BCBA11D4970470096A936 /* otter_talkative.m4a */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2BCB5B1D491BED0096A936 /* Assets.xcassets in Resources */,
+				FA2BCBA61D4970470096A936 /* otter_reporting_for_duty.m4a in Resources */,
+				FA2BCBA71D4970470096A936 /* otter_sad.m4a in Resources */,
+				FA2BCBA41D4970470096A936 /* otter_humph.m4a in Resources */,
+				FA2BCBA81D4970470096A936 /* otter_talkative.m4a in Resources */,
 				FA2BCB5E1D491BED0096A936 /* MainMenu.xib in Resources */,
+				FAD831481D497A2D003F8695 /* PreferencesWindow.xib in Resources */,
+				FA2BCBA31D4970470096A936 /* otter_attention.m4a in Resources */,
+				FA2BCBA51D4970470096A936 /* otter_hungry.m4a in Resources */,
+				FA2BCBA21D4970470096A936 /* otter_affirmative.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2BCB821D4924500096A936 /* StatusMenuController.swift in Sources */,
+				FAD831471D497A2D003F8695 /* PreferencesWindow.swift in Sources */,
 				FA2BCB591D491BED0096A936 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +549,7 @@
 				FA2BCB7A1D491BEE0096A936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2BCB7B1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				FA2BCB7D1D491BEE0096A936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2BCB7E1D491BEE0096A936 /* Build configuration list for PBXNativeTarget "KittenOtterChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				FA2BCB801D491BEE0096A936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
